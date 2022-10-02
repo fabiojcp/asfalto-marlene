@@ -1,10 +1,12 @@
 @font-face {
   font-family: NoveliaPro;
   src: url("../assets/fonts/NoveliaPro.ttf");
+  display: swap;
 }
 @font-face {
     font-family: JejuGothic;
     src: url("../assets/fonts/JejuGothic-Regular.ttf");
+    display: swap;
 }
 
 html {
