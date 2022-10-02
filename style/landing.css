@@ -37,12 +37,11 @@ a {
 
 nav {
   background-color: #a1272762;
-  height: 5vh;
-  padding-right: 5vw;
+  padding: 2vh 5vw 2vh 0;
   display: flex;
   align-items: center;
   justify-content: end;
-  gap: 5%;
+  gap: 5vw;
   min-width: 95vw;
   max-width: 95vw;
 }
