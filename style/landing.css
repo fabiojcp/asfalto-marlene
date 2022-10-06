@@ -13,57 +13,95 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  background-image: url("../assets/images/background.webp");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  max-width: 100vw;
-  color: #ffffff;
-  font-size: 2vw;
-  font-family: JejuGothic;
-  font-display: swap;
+* {
+    box-sizing: border-box;
 }
+
+body {
+    background-image: url("../assets/images/background.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-height: 100vh;
+    max-width: 100vw;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    color: #ffffff;
+
+    font-size: 2vw;
+    font-family: JejuGothic;
+    font-display: swap;
+
+    overflow-x: hidden;
+}
+
+
 
 h1 {
-  font-family: NoveliaPro;
-  font-size: 4vw;
-  font-display: swap;
+    font-family: NoveliaPro;
+    font-size: 4vw;
+    font-display: swap;
 }
 
-a {
-  font-size: 4vw;
+li, a{
+    color: #ffffff;
+
+    font-size: 1.2rem;
+    
+    text-decoration: none;
+    list-style: none;
 }
 
 nav {
-  background-color: #a1272762;
-  padding: 2vh 5vw 2vh 0;
-  display: flex;
-  align-items: center;
-  justify-content: end;
-  min-width: 95vw;
-  max-width: 95vw;
+    background-color: #a1272762;
+    
+    padding: 2vh 5vw 2vh 0;
+
+    display: flex;
+    align-items: center;
 }
 
-nav > a {
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 2vw;
-  margin-left: 5vw;
+nav > ul{
+    display: flex;
+    width: 100%;
+    justify-content: end;
 }
+
+
+.nav-links{
+    margin-left: 5vw;
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    text-underline-offset: var(--offset, 0.5em);
+    text-decoration: underline 0.13em rgba(255, 255, 255, 0);
+
+    transition: 300ms, text-decoration-color 300ms;
+
+    padding: 2rem;
+}
+
+.nav-links:hover{
+    text-decoration-color: rgba(255, 255, 255, 1);
+}
+
 
 #OJOGO {
-  margin: 5vh 0 0 5%;
-  width: 40vw;
-  max-width: 100vw;
+    margin: 5vh 0 0 5%;
+    width: 40vw;
+    max-width: 100vw;
 }
 
 #OJOGO > img {
-  width: 100%;
+    width: 100%;
 }
 
 #OJOGO > p {
-  padding-left: 10%;
+    padding-left: 10%;
 }
 
 #SOBRE {
