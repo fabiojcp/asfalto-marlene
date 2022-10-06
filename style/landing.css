@@ -1,16 +1,16 @@
 @font-face {
-  font-family: NoveliaPro;
-  src: url("../assets/fonts/NoveliaPro.ttf");
-  display: swap;
+    font-family: NoveliaPro;
+    src: url("../assets/fonts/NoveliaPro.ttf");
+    display: swap;
 }
 @font-face {
-  font-family: JejuGothic;
-  src: url("../assets/fonts/JejuGothic-Regular.ttf");
-  display: swap;
+    font-family: JejuGothic;
+    src: url("../assets/fonts/JejuGothic-Regular.ttf");
+    display: swap;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 * {
@@ -39,8 +39,6 @@ body {
     overflow-x: hidden;
 }
 
-
-
 h1 {
     font-family: NoveliaPro;
     font-size: 4vw;
@@ -54,6 +52,10 @@ li, a{
     
     text-decoration: none;
     list-style: none;
+}
+
+p {
+    font-size: 1.1rem;
 }
 
 nav {
@@ -89,7 +91,9 @@ nav > ul{
     text-decoration-color: rgba(255, 255, 255, 1);
 }
 
+/*MAIN*/
 
+/* TITULO + GRAVATINHA */
 #OJOGO {
     margin: 5vh 0 0 5%;
     width: 40vw;
@@ -104,30 +108,56 @@ nav > ul{
     padding-left: 10%;
 }
 
-#SOBRE {
-  margin: 5vh 0 0 0;
-  width: 100vw;
-  display: flex;
-  flex-direction: row;
-  max-width: 100vw;
+/* CONTAINER + IMAGEM */
+#CONTAINER-ARTICLE{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
 }
 
-#SOBRE > img {
-  width: 45%;
-  height: fit-content;
+#CONTAINER-ARTICLE > img {
+    width: 50%;
 }
+
+/* IDENTACAO TEXTOS */
+.section-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    margin: 5rem;
+}
+
+.text{
+
+    line-height: 26px;
+    text-align: justify;
+    font-family: 'JejuGothic';
+
+    color: #FFFFFF;
+}
+
+
+/* #SOBRE {
+    margin: 5vh 0 0 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    max-width: 100vw;
+} */
 
 #SOBRE :nth-child(1) {
-  text-shadow: 0 0 2vw #fee889, 0 0 2vw #fee889;
+    text-shadow: 0 0 2vw #fee889, 0 0 2vw #fee889;
 }
 
 #SOBRE :nth-child(3) {
-  margin: 5vh 0 0 0;
-  text-shadow: 0 0 2vw #ee8b1d, 0 0 2vw #ee8b1d;
+    margin: 5vh 0 0 0;
+    text-shadow: 0 0 2vw #ee8b1d, 0 0 2vw #ee8b1d;
 }
 
 #SOBRE > article {
-  width: 45%;
+    width: 45%;
 }
 
 #TRAILER {

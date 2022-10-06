@@ -13,58 +13,65 @@
     </head>
 
     <body>
-        <nav>
-            <ul>
-                <li><a href="#OJOGO" class="nav-links"> O jogo </a></li>
-                <li><a href="#SOBRE" class="nav-links"> Sobre Marlene </a></li>
-                <li><a href="#TRAILER" class="nav-links"> Trailer </a></li>
-                <li><a href="#EQUIPE" class="nav-links"> Equipe </a></li>
-                <li> <a href="#CONTATO" class="nav-links"> Contatos</a></li>
-            </ul>
-        </nav>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#OJOGO" class="nav-links"> O jogo </a></li>
+                    <li><a href="#SOBRE" class="nav-links"> Sobre Marlene </a></li>
+                    <li><a href="#TRAILER" class="nav-links"> Trailer </a></li>
+                    <li><a href="#EQUIPE" class="nav-links"> Equipe </a></li>
+                    <li> <a href="#CONTATO" class="nav-links"> Contatos</a></li>
+                </ul>
+            </nav>
+        </header>
 
-        <section id="OJOGO">
-            <img src="./assets/images/logo-asfalto.webp" alt="Letras estilizadas envoltas em luz neon formam o nome Asfalto, cortado ao meio por uma bengala na horizontal." />
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida donec
-                lectus nunc id. Morbi nunc, diam vitae, auctor fames. Nascetur eget cras
-                feugiat dictum quam fermentum sed. Risus enim, vitae congue at at
-                faucibus augue.
-            </p>
-        </section>
-
-        <section id="SOBRE">
-            <img tabindex="-1" src="./assets/images/detetive-marlene.webp" alt="Imagem estilizada em preto e branco de Marlene, uma mulher sisuda segurando um cigarro." />
-            <article>
-                <h1>Sobre o jogo</h1>
-                <p>
+        <main>
+            <section id="OJOGO">
+                <img src="./assets/images/logo-asfalto.webp" alt="Letras estilizadas envoltas em luz neon formam o nome Asfalto, cortado ao meio por uma bengala na horizontal." />
+                <p class="text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida donec
-                    lectus nunc id. Morbi nunc, diam vitae, auctor fames. Nascetur eget
-                    cras feugiat dictum quam fermentum sed. Risus enim, vitae congue at at
-                    faucibus augue. Faucibus elit tortor rhoncus facilisis arcu odio orci.
-                    Nibh nibh sagittis, suspendisse augue pretium velit sit sed cum.
-                    Commodo malesuada euismod purus dui sit enim sit enim ac. urna.
+                    lectus nunc id. Morbi nunc, diam vitae, auctor fames. Nascetur eget cras
+                    feugiat dictum quam fermentum sed. Risus enim, vitae congue at at
+                    faucibus augue.
                 </p>
-                <h1>Marlene</h1>
-                <p>
-                    Odio massa et ut lobortis. Orci morbi viverra suspendisse ridiculus
-                    quisque urna. Amet ullamcorper et nullam non non nullam. Purus eget
-                    amet id vulputate porttitor neque proin est. Praesent cursus gravida
-                    et accumsan lectus. Urna, augue egestas vitae congue odio hendrerit
-                    etiam
-                </p>
-            </article>
-        </section>
+            </section>
+            <div id="CONTAINER-ARTICLE">
+                <img tabindex="-1" src="./assets/images/detetive-marlene.webp" alt="Imagem estilizada em preto e branco de Marlene, uma mulher sisuda segurando um cigarro." />
+                <article>
+                    <section id="SOBRE" class="section-wrapper">
+                        <h1>Sobre o jogo</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida donec
+                            lectus nunc id. Morbi nunc, diam vitae, auctor fames. Nascetur eget
+                            cras feugiat dictum quam fermentum sed. Risus enim, vitae congue at at
+                            faucibus augue. Faucibus elit tortor rhoncus facilisis arcu odio orci.
+                            Nibh nibh sagittis, suspendisse augue pretium velit sit sed cum.
+                            Commodo malesuada euismod purus dui sit enim sit enim ac. urna.
+                        </p>
+                    </section>
+                    <section id="MARLENE" class="section-wrapper">
+                        <h1>Marlene</h1>
+                        <p>
+                            Odio massa et ut lobortis. Orci morbi viverra suspendisse ridiculus
+                            quisque urna. Amet ullamcorper et nullam non non nullam. Purus eget
+                            amet id vulputate porttitor neque proin est. Praesent cursus gravida
+                            et accumsan lectus. Urna, augue egestas vitae congue odio hendrerit
+                            etiam
+                        </p>
+                    </section>
+                </article>
+            </div>
 
-        <section id="TRAILER">
-            <h1>Trailer</h1>
-            <iframe title="trailer do jogo Asfalto" width="560" height="315" src="https://www.youtube.com/embed/nBROasGhMD4" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
-        </section>
+            <section id="TRAILER" class="section-wrapper">
+                <h1>Trailer</h1>
+                <iframe title="trailer do jogo Asfalto" width="560" height="315" src="https://www.youtube.com/embed/nBROasGhMD4" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+            </section>
 
-        <section>
-            <h1 id="EQUIPE">EQUIPE</h1>
-        </section>
+            <section id="EQUIPE" class="section-wrapper">
+                <h1>EQUIPE</h1>
+            </section>
+        </main>
 
         <footer>
             <img src="./assets/images/Proac.webp" alt="Logo PROAC - Programa de Ação Cultura" />
