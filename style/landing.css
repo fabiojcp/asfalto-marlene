@@ -155,13 +155,12 @@ nav > ul{
 } */
 
 #SOBRE :nth-child(1) {
-    text-shadow: 0 0 2vw #fee889, 0 0 2vw #fee889;
+    text-shadow: 0 0 20px #fee889, 0 0 20px #fee889;
 }
 
-/* #SOBRE :nth-child(3) {
-    margin: 5vh 0 0 0;
-    text-shadow: 0 0 2vw #ee8b1d, 0 0 2vw #ee8b1d;
-} */
+#MARLENE :nth-child(1) {
+    text-shadow: 0 0 20px #ee8b1d, 0 0 20px #ee8b1d;
+}
 
 
 
@@ -172,7 +171,7 @@ nav > ul{
 }
 
 #TRAILER :nth-child(1) {
-    text-shadow: 0 0 3vw #b04886, 0 0 3vw #ca057c;
+    text-shadow: 0 0 20px #b04886, 0 0 20px #ca057c;
 }
 
 #TRAILER > iframe {
