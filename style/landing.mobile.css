@@ -1,0 +1,62 @@
+@media (max-width: 426px) {
+  h1,h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 0.9rem;
+  }
+
+  h4 {
+    font-size: 0.75rem;
+  }
+
+
+  li,
+  a {
+    font-size: 0.5rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+  /* nav > ul {
+
+  } */
+
+  /* HEADER */
+  .nav-links {
+    padding: 0.1rem;
+  }
+  
+  /* MAIN */
+
+  /* TITULO + GRAVATINHA */
+
+  #OJOGO {
+    width: 60vw;
+  }
+
+  /* CONTAINER + IMAGEM */
+
+  #CONTAINER-ARTICLE {
+    flex-direction: column;
+    margin: 1rem 0 1rem 2rem;
+  }
+
+  #EQUIPE {
+    gap: 0.5em 1em;
+  }
+
+  .section-wrapper {
+    margin: 0;
+  }
+
+  .container-divider {
+    gap: 2rem;
+  }
+
+  .list-wrapper {
+
+  }
+}
