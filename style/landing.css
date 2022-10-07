@@ -171,8 +171,8 @@ nav > ul{
     padding: 0 10vw;
 }
 
-#TRAILER > h1 {
-    text-shadow: 0 0 2vw #b3508b, 0 0 2vw #b3508b;
+#TRAILER :nth-child(1) {
+    text-shadow: 0 0 3vw #b04886, 0 0 3vw #ca057c;
 }
 
 #TRAILER > iframe {
@@ -196,6 +196,9 @@ nav > ul{
     margin: 2rem auto;
 
     text-align: center;
+
+    color: wh;
+    text-shadow: 0 0 20px #A12727,  0 0 20px #EF4343;
 }
 
 /* DIVIDE POR LINHA */
@@ -214,8 +217,14 @@ nav > ul{
 .credits-wrapper{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
     width: 20%;
+
+}
+
+.credits-wrapper > h3 {
+    color: #EF4343;
+    text-shadow: 0 0 20px #A12727,  0 0 20px #EF4343;
 }
 /* LISTA */
 .list-wrapper {
